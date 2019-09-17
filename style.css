@@ -8,6 +8,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #0a3cc4;
+  box-sizing: border-box;
 }
 
 .navbar li {
@@ -36,5 +37,10 @@
 
 body {
    background-image: url("https://www.wheretraveler.com/sites/default/files/styles/promoted_image/public/cpybxk.jpg")
+}
+
+body, html {
+   padding: 0; 
+   margin: 0;  
 }
 
