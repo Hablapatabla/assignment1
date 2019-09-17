@@ -10,10 +10,12 @@ ul {
 
 li {
   margin: 0;
+  float: left;
+  display: inline;
 }
 
 li a {
-  display: block,inline;
+  display: block;
   color: #fff;
   text-align: center;
   padding: 14px 16px;
