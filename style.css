@@ -1,0 +1,25 @@
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a3cc4
+}
+
+li {
+  margin: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: #0e48e8;
+}
+
+.active {
+  background-color: #2e66ff;
+}
