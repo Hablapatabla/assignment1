@@ -4,15 +4,10 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #0a3cc4;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 li {
-  margin: 0;
   float: left;
-  display: inline;
 }
 
 li a {
