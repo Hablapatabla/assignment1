@@ -1,5 +1,8 @@
 .navbar {
   position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar ul {
@@ -7,8 +10,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0a3cc4;
-  box-sizing: border-box;
+  background-color: #011442;
+
 }
 
 .navbar li {
@@ -18,6 +21,7 @@
 .navbar li a {
   display: block;
   color: #fff;
+  font-family: Avenir Next, Helvetica;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -33,6 +37,19 @@
 
 .navbar h1 {
   text-align: center; 
+  color: #fff;
+  font-family: Avenir Next, Helvetica;
 }
 
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("cturtle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #011442
+}
 
